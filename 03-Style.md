@@ -274,7 +274,7 @@ There is almost never a reason to declare an identifier in the global namespaces
 
 ## Use the Correct Integer Type For stdlib Features
 
-The standard library generally returns `size_t` for anything related to size. What exactly `size_t` is is implementation defined.
+The standard library generally returns `size_t` for anything related to size. What exactly `size_t` means is implementation defined.
 
 In general, using `auto` will avoid most of these issues, but not all.
 
